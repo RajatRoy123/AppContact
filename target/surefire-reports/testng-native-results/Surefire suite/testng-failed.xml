@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="Application.Contact.ContactSearchTest">
+        <methods>
+          <include name="ContactSearch"/>
+        </methods>
+      </class> <!-- Application.Contact.ContactSearchTest -->
+      <class name="Application.Contact.DeleteContactTest">
+        <methods>
+          <include name="killprocess"/>
+          <include name="DeleteContact"/>
+        </methods>
+      </class> <!-- Application.Contact.DeleteContactTest -->
+      <class name="Application.Contact.LaunchContactTest">
+        <methods>
+          <include name="LaunchContact" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Application.Contact.LaunchContactTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

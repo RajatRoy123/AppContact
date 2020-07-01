@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51396" started-at="2020-07-01T10:37:27 IST" finished-at="2020-07-01T10:38:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51396" started-at="2020-07-01T10:37:27 IST" finished-at="2020-07-01T10:38:18 IST">
+      <class name="Application.Contact.ContactSearchTest">
+        <test-method status="PASS" signature="killprocess()[pri:0, instance:Application.Contact.ContactSearchTest@1060b431]" name="killprocess" is-config="true" duration-ms="5022" started-at="2020-07-01T10:37:27 IST" finished-at="2020-07-01T10:37:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killprocess -->
+        <test-method status="PASS" signature="ContactSearch()[pri:0, instance:Application.Contact.ContactSearchTest@1060b431]" name="ContactSearch" duration-ms="46270" started-at="2020-07-01T10:37:32 IST" finished-at="2020-07-01T10:38:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactSearch -->
+      </class> <!-- Application.Contact.ContactSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

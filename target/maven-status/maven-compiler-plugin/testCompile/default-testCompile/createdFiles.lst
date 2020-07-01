@@ -1,0 +1,5 @@
+Application\Contact\ContactCallTest.class
+Application\Contact\AppTest.class
+Application\Contact\ContactSearchTest.class
+Application\Contact\LaunchContactTest.class
+Application\Contact\DeleteContactTest.class

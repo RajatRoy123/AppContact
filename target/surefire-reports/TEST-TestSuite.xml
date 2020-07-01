@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="308.304" tests="6" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\rajat\eclipse-workspace\Contact\target\test-classes;C:\Users\rajat\eclipse-workspace\Contact\target\classes;C:\Users\rajat\.m2\repository\com\aventstack\extentreports\4.0.0\extentreports-4.0.0.jar;C:\Users\rajat\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\rajat\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\rajat\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\rajat\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\rajat\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\rajat\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\rajat\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\rajat\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\rajat\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\rajat\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\rajat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\rajat\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\rajat\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\rajat\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\rajat\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\rajat\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\rajat\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rajat\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rajat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rajat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rajat\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rajat\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rajat\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rajat\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rajat\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rajat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rajat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rajat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rajat\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\rajat\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\rajat\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\rajat\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\rajat\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\rajat\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\rajat\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\rajat\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\rajat\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\rajat\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\rajat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\rajat\AppData\Local\Temp\surefire6012525085366076838\surefirebooter3730146211961475909.jar C:\Users\rajat\AppData\Local\Temp\surefire6012525085366076838 2020-06-30T20-35-22_703-jvmRun1 surefire2765503053245689782tmp surefire_02834231709024639972tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\rajat\eclipse-workspace\Contact\target\test-classes;C:\Users\rajat\eclipse-workspace\Contact\target\classes;C:\Users\rajat\.m2\repository\com\aventstack\extentreports\4.0.0\extentreports-4.0.0.jar;C:\Users\rajat\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\rajat\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\rajat\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\rajat\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\rajat\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\rajat\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\rajat\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\rajat\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\rajat\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\rajat\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\rajat\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\rajat\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\rajat\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\rajat\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\rajat\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\rajat\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\rajat\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rajat\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rajat\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rajat\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rajat\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rajat\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rajat\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rajat\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rajat\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rajat\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rajat\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rajat\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rajat\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rajat\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\rajat\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\rajat\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\rajat\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\rajat\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\rajat\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\rajat\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\rajat\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\rajat\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\rajat\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\rajat\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\rajat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rajat"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="basedir" value="C:\Users\rajat\eclipse-workspace\Contact"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\rajat\AppData\Local\Temp\surefire6012525085366076838\surefirebooter3730146211961475909.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="rajat"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\rajat\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rajat\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="C:\Users\rajat\eclipse-workspace\Contact"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\Appium\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files\Java\jdk1.8.0_251/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Qualcomm\QIKTool;C:\Program Files (x86)\Qualcomm\QCAT 6.x\Bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Users\rajat\AppData\Local\Android\Sdk\tools\bin;C:\Users\rajat\AppData\Local\Android\Sdk\tools;C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Android\Android Studio\jre\bin;F:\Appium\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\rajat\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\rajat\AppData\Local\Programs\Python\Python38\;C:\Users\rajat\AppData\Local\Microsoft\WindowsApps;C:\Users\rajat\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="ContactCall" classname="Application.Contact.ContactCallTest" time="80.933"/>
+  <testcase name="ContactSearch" classname="Application.Contact.ContactSearchTest" time="61.447">
+    <failure message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-9VN76KV&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: de5ffec5-d48d-469e-b7c5-b18a1d2b6037&#10;*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text(&quot;Payel Jio&quot;))}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9VN76KV', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: de5ffec5-d48d-469e-b7c5-b18a1d2b6037
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text("Payel Jio"))}
+	at Application.Contact.ContactSearchTest.ContactSearch(ContactSearchTest.java:38)
+</failure>
+    <system-out><![CDATA[Entered start server
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","platformName":"Android","deviceName":"Android Device"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.android.dialer.DialtactsActivity","appium:appPackage":"com.samsung.android.contacts","appium:automationName":"uiautomator2","appium:deviceName":"Android Device","platformName":"android"}]}}&amp#27;[39m
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","platformName":"Android","deviceName":"Android Device"},null,{"firstMatch":[{"appium:appActivity":"com.android.dialer.DialtactsActivity","appium:appPackage":"com.samsung.android.contacts","appium:automationName":"uiautomator2","appium:deviceName":"Android Device","platformName":"android"}]}]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1593529617588 (20:36:57 GMT+0530 (India Standard Time))
+&amp#27;[35m[Appium]&amp#27;[39m Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.android.dialer.DialtactsActivity",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.samsung.android.contacts",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "uiautomator2",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "Android Device"
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: de5ffec5-d48d-469e-b7c5-b18a1d2b6037
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.samsung.android.contacts' directly on the device
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"420010599737743f","state":"device"}]
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Using device: 420010599737743f
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to 420010599737743f
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell getprop ro.build.version.sdk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.sdk': 27
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 27
+&amp#27;[35m[AndroidDriver]&amp#27;[39m No app sent in, not parsing package/activity
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f wait-for-device'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell echo ping'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Pushing settings apk to device...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.settings
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.settings' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.1.0' >= '3.1.0')
+[debug] &amp#27;[35m[ADB]&amp#27;[39m There is no need to install/upgrade 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting IDs of all 'io.appium.settings' processes
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell 'pgrep --help; echo $?''
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pgrep -f io\\.appium\\.settings'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell appops set io.appium.settings android\:mock_location allow'
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Starting logcat capture
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Forwarding UiAutomator2 Server port 6790 to 8213
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Forwarding system: 8213 to device: 6790
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f forward tcp\:8213 tcp\:6790'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.5.5' >= '4.5.5')
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk
+&amp#27;[35m[ADB]&amp#27;[39m Using 'apksigner.jar' from 'C:\Users\rajat\AppData\Local\Android\Sdk\build-tools\30.0.0\lib\apksigner.jar'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.5.apk
+&amp#27;[35m[ADB]&amp#27;[39m Cannot use apksigner tool for signature verification. Original error: Command ''C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.5.apk' exited with code 1
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Defaulting to verify.jar
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' is signed with the default certificate
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server.test
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server.test' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+&amp#27;[35m[ADB]&amp#27;[39m Cannot use apksigner tool for signature verification. Original error: Command ''C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Defaulting to verify.jar
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Server packages are not going to be (re)installed
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for services to be available
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pm list instrumentation'
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No app capability. Assuming it is already on the device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for com.samsung.android.contacts
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package com.samsung.android.contacts'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'com.samsung.android.contacts' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am force-stop com.samsung.android.contacts'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pm clear com.samsung.android.contacts'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Performed fast reset on the installed 'com.samsung.android.contacts' application (stop and clear)
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Performing shallow cleanup of automation leftovers
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The following obsolete sessions are still running: ["431a30a3-f98d-4135-a83d-aa6d37b46979"]
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Cleaning up the obsolete sessions
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m .
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m Time: 67.101
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m 
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m OK (1 test)
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am force-stop io.appium.uiautomator2.server.test'
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m The process has exited with code 0
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting UIAutomator2 server 4.5.5
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Using UIAutomator2 server from 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' and test from 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Creating ADB subprocess with args: ["-P",5037,"-s","420010599737743f","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8213/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8213/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8213/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8213/wd/hub/status] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The initialization of the instrumentation process took 4237ms
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /session] to [POST http://127.0.0.1:8213/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f"}],"alwaysMatch":{}}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"67d9fc00-bc12-487b-aa80-e3f00dd21e65","value":{"sessionId":"67d9fc00-bc12-487b-aa80-e3f00dd21e65","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f"}],"alwaysMatch":{}}}}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8213/wd/hub/session/67d9fc00-bc12-487b-aa80-e3f00dd21e65/appium/device/info] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"67d9fc00-bc12-487b-aa80-e3f00dd21e65","value":{"androidId":"8f53ae9a94067865","manufacturer":"samsung","model":"SM-G615FU","brand":"samsung","apiVersion":"27","platformVersion":"8.1.0","carrierName":"Vodafone IN","realDisplaySize":"1080x1920","displayDensity":420,"networks":[{"type":0,"typeName":"MOBILE","subtype":13,"subtypeName":"LTE","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"IMS","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"TRANSPORT_CELLULAR","networkCapabilities":"NET_CAPABILITY_IMS,NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING","linkUpstreamBandwidthKbps":51200,"linkDownBandwidthKbps":102400,"signalStrength":-2147483648,"networkSpecifier":"5","SSID":null}},{"type":13,"typeName":"WIFI_P2P","subtype":0,"subtypeName":"","isConnected":false,"detailedState":"DISCONNECTED","state":"DISCONNECTED","extraInfo":null,"isAvailable":true,"i...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys window'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Screen already unlocked, doing nothing
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.samsung.android.contacts/com.android.dialer.DialtactsActivity and waiting for 'com.samsung.android.contacts/com.android.dialer.DialtactsActivity'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am start -W -n com.samsung.android.contacts/com.android.dialer.DialtactsActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8213/wd/hub/session/67d9fc00-bc12-487b-aa80-e3f00dd21e65/appium/device/pixel_ratio] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"67d9fc00-bc12-487b-aa80-e3f00dd21e65","value":2.625}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8213/wd/hub/session/67d9fc00-bc12-487b-aa80-e3f00dd21e65/appium/device/system_bars] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"67d9fc00-bc12-487b-aa80-e3f00dd21e65","value":{"statusBar":63}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8213/wd/hub/session/67d9fc00-bc12-487b-aa80-e3f00dd21e65/window/current/size] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"67d9fc00-bc12-487b-aa80-e3f00dd21e65","value":{"height":1920,"width":1080}}
+&amp#27;[35m[Appium]&amp#27;[39m New AndroidUiautomator2Driver session created successfully, session de5ffec5-d48d-469e-b7c5-b18a1d2b6037 added to master session list
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1593529634419 (20:37:14 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[W3C (de5ffec5)]&amp#27;[39m Cached the protocol value 'W3C' for the new session de5ffec5-d48d-469e-b7c5-b18a1d2b6037
+[debug] &amp#27;[35m[W3C (de5ffec5)]&amp#27;[39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f","deviceApiLevel":27,"platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"SM-G615FU","deviceManufacturer":"samsung","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1857}}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m16839 ms - 947&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/de5ffec5-d48d-469e-b7c5-b18a1d2b6037/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@text='CONTACTS']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (de5ffec5)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='CONTACTS']","de5ffec5-d48d-469e-b7c5-b18a1d2b6037"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8213/wd/hub/session/67d9fc00-bc12-487b-aa80-e3f00dd21e65/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='CONTACTS']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"67d9fc00-bc12-487b-aa80-e3f00dd21e65","value":{"ELEMENT":"a5899802-3873-425b-b9ab-b56b42ef66b8","element-6066-11e4-a52e-4f735466cecf":"a5899802-3873-425b-b9ab-b56b42ef66b8"}}
+[debug] &amp#27;[35m[W3C (de5ffec5)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"a5899802-3873-425b-b9ab-b56b42ef66b8","ELEMENT":"a5899802-3873-425b-b9ab-b56b42ef66b8"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/de5ffec5-d48d-469e-b7c5-b18a1d2b6037/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3965 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/de5ffec5-d48d-469e-b7c5-b18a1d2b6037/element/a5899802-3873-425b-b9ab-b56b42ef66b8/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"a5899802-3873-425b-b9ab-b56b42ef66b8"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (de5ffec5)]&amp#27;[39m Calling AppiumDriver.click() with args: ["a5899802-3873-425b-b9ab-b56b42ef66b8","de5ffec5-d48d-469e-b7c5-b18a1d2b6037"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/a5899802-3873-425b-b9ab-b56b42ef66b8/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/a5899802-3873-425b-b9ab-b56b42ef66b8/click] to [POST http://127.0.0.1:8213/wd/hub/session/67d9fc00-bc12-487b-aa80-e3f00dd21e65/element/a5899802-3873-425b-b9ab-b56b42ef66b8/click] with body: {"element":"a5899802-3873-425b-b9ab-b56b42ef66b8"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"67d9fc00-bc12-487b-aa80-e3f00dd21e65","value":null}
+[debug] &amp#27;[35m[W3C (de5ffec5)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/de5ffec5-d48d-469e-b7c5-b18a1d2b6037/element/a5899802-3873-425b-b9ab-b56b42ef66b8/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m48 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/de5ffec5-d48d-469e-b7c5-b18a1d2b6037/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"Payel Jio\"))"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (de5ffec5)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiScrollable(new UiSelector()).scrollIntoView(text(\"Payel Jio\"))","de5ffec5-d48d-469e-b7c5-b18a1d2b6037"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8213/wd/hub/session/67d9fc00-bc12-487b-aa80-e3f00dd21e65/element] with body: {"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"Payel Jio\"))","context":"","multiple":false}
+&amp#27;[35m[BaseDriver]&amp#27;[39m Shutting down because we waited 60 seconds for a command
+&amp#27;[35m[Appium]&amp#27;[39m Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+&amp#27;[35m[Appium]&amp#27;[39m Removing session '0ed0a6a8-4eba-42df-b15f-a3aac803615d' from our master session list
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 session
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 server session
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'deleteSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [DELETE /] to [DELETE http://127.0.0.1:8212/wd/hub/session/431a30a3-f98d-4135-a83d-aa6d37b46979] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"431a30a3-f98d-4135-a83d-aa6d37b46979","value":null}
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am force-stop com.samsung.android.contacts'
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Stopping logcat capture
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Removing forwarded port socket connection: 8212 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f forward --remove tcp\:8212'
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m .
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[W3C (de5ffec5)]&amp#27;[39m Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+[debug] &amp#27;[35m[W3C (de5ffec5)]&amp#27;[39m     at JWProxy.command (C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:266:13)
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/de5ffec5-d48d-469e-b7c5-b18a1d2b6037/element &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m40464 ms - 562&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m Time: 48.111
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m 
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m OK (1 test)
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m The process has exited with code 0
+]]></system-out>
+    <system-err><![CDATA[Jun 30, 2020 8:37:14 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DeleteContact" classname="Application.Contact.DeleteContactTest" time="82.607">
+    <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-9VN76KV&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 46e29132-a987-4bc7-8dbf-0deef7b79faa&#10;*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text(&quot;Payel-rel-bangalor&quot;))}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9VN76KV', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 46e29132-a987-4bc7-8dbf-0deef7b79faa
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text("Payel-rel-bangalor"))}
+	at Application.Contact.DeleteContactTest.DeleteContact(DeleteContactTest.java:38)
+</failure>
+    <system-out><![CDATA[Entered start server
+debug
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","platformName":"Android","deviceName":"Android Device"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.android.dialer.DialtactsActivity","appium:appPackage":"com.samsung.android.contacts","appium:automationName":"uiautomator2","appium:deviceName":"Android Device","platformName":"android"}]}}&amp#27;[39m
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","platformName":"Android","deviceName":"Android Device"},null,{"firstMatch":[{"appium:appActivity":"com.android.dialer.DialtactsActivity","appium:appPackage":"com.samsung.android.contacts","appium:automationName":"uiautomator2","appium:deviceName":"Android Device","platformName":"android"}]}]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1593529679027 (20:37:59 GMT+0530 (India Standard Time))
+&amp#27;[35m[Appium]&amp#27;[39m Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.android.dialer.DialtactsActivity",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.samsung.android.contacts",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "uiautomator2",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "Android Device"
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: 46e29132-a987-4bc7-8dbf-0deef7b79faa
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.samsung.android.contacts' directly on the device
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"420010599737743f","state":"device"}]
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Using device: 420010599737743f
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to 420010599737743f
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell getprop ro.build.version.sdk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.sdk': 27
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 27
+&amp#27;[35m[AndroidDriver]&amp#27;[39m No app sent in, not parsing package/activity
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f wait-for-device'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell echo ping'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Pushing settings apk to device...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.settings
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.settings' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.1.0' >= '3.1.0')
+[debug] &amp#27;[35m[ADB]&amp#27;[39m There is no need to install/upgrade 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting IDs of all 'io.appium.settings' processes
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell 'pgrep --help; echo $?''
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pgrep -f io\\.appium\\.settings'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell appops set io.appium.settings android\:mock_location allow'
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Starting logcat capture
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Forwarding UiAutomator2 Server port 6790 to 8212
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Forwarding system: 8212 to device: 6790
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f forward tcp\:8212 tcp\:6790'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.5.5' >= '4.5.5')
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk
+&amp#27;[35m[ADB]&amp#27;[39m Using 'apksigner.jar' from 'C:\Users\rajat\AppData\Local\Android\Sdk\build-tools\30.0.0\lib\apksigner.jar'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.5.apk
+&amp#27;[35m[ADB]&amp#27;[39m Cannot use apksigner tool for signature verification. Original error: Command ''C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.5.apk' exited with code 1
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Defaulting to verify.jar
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' is signed with the default certificate
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server.test
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server.test' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+&amp#27;[35m[ADB]&amp#27;[39m Cannot use apksigner tool for signature verification. Original error: Command ''C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Defaulting to verify.jar
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Server packages are not going to be (re)installed
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for services to be available
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pm list instrumentation'
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No app capability. Assuming it is already on the device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for com.samsung.android.contacts
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package com.samsung.android.contacts'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'com.samsung.android.contacts' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am force-stop com.samsung.android.contacts'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pm clear com.samsung.android.contacts'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Performed fast reset on the installed 'com.samsung.android.contacts' application (stop and clear)
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Performing shallow cleanup of automation leftovers
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No obsolete sessions have been detected (Error: socket hang up)
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am force-stop io.appium.uiautomator2.server.test'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting UIAutomator2 server 4.5.5
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Using UIAutomator2 server from 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' and test from 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Creating ADB subprocess with args: ["-P",5037,"-s","420010599737743f","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8212/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8212/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8212/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8212/wd/hub/status] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The initialization of the instrumentation process took 4236ms
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /session] to [POST http://127.0.0.1:8212/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f"}],"alwaysMatch":{}}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"cfb4f004-8b76-4f77-b426-64b1dc951554","value":{"sessionId":"cfb4f004-8b76-4f77-b426-64b1dc951554","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f"}],"alwaysMatch":{}}}}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8212/wd/hub/session/cfb4f004-8b76-4f77-b426-64b1dc951554/appium/device/info] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"cfb4f004-8b76-4f77-b426-64b1dc951554","value":{"androidId":"8f53ae9a94067865","manufacturer":"samsung","model":"SM-G615FU","brand":"samsung","apiVersion":"27","platformVersion":"8.1.0","carrierName":"Vodafone IN","realDisplaySize":"1080x1920","displayDensity":420,"networks":[{"type":0,"typeName":"MOBILE","subtype":13,"subtypeName":"LTE","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"IMS","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"TRANSPORT_CELLULAR","networkCapabilities":"NET_CAPABILITY_IMS,NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING","linkUpstreamBandwidthKbps":51200,"linkDownBandwidthKbps":102400,"signalStrength":-2147483648,"networkSpecifier":"5","SSID":null}},{"type":13,"typeName":"WIFI_P2P","subtype":0,"subtypeName":"","isConnected":false,"detailedState":"DISCONNECTED","state":"DISCONNECTED","extraInfo":null,"isAvailable":true,"i...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys window'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Screen already unlocked, doing nothing
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.samsung.android.contacts/com.android.dialer.DialtactsActivity and waiting for 'com.samsung.android.contacts/com.android.dialer.DialtactsActivity'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am start -W -n com.samsung.android.contacts/com.android.dialer.DialtactsActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8212/wd/hub/session/cfb4f004-8b76-4f77-b426-64b1dc951554/appium/device/pixel_ratio] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"cfb4f004-8b76-4f77-b426-64b1dc951554","value":2.625}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8212/wd/hub/session/cfb4f004-8b76-4f77-b426-64b1dc951554/appium/device/system_bars] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"cfb4f004-8b76-4f77-b426-64b1dc951554","value":{"statusBar":63}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8212/wd/hub/session/cfb4f004-8b76-4f77-b426-64b1dc951554/window/current/size] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"cfb4f004-8b76-4f77-b426-64b1dc951554","value":{"height":1920,"width":1080}}
+&amp#27;[35m[Appium]&amp#27;[39m New AndroidUiautomator2Driver session created successfully, session 46e29132-a987-4bc7-8dbf-0deef7b79faa added to master session list
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1593529693398 (20:38:13 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m Cached the protocol value 'W3C' for the new session 46e29132-a987-4bc7-8dbf-0deef7b79faa
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f","deviceApiLevel":27,"platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"SM-G615FU","deviceManufacturer":"samsung","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1857}}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m14376 ms - 947&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/46e29132-a987-4bc7-8dbf-0deef7b79faa/timeouts&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"implicit":10000}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"46e29132-a987-4bc7-8dbf-0deef7b79faa"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C timeout argument: {"implicit":10000}}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Set implicit wait to 10000ms
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m Responding to client with driver.timeouts() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/46e29132-a987-4bc7-8dbf-0deef7b79faa/timeouts &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m9 ms - 14&amp#27;[39m
+debug1
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/46e29132-a987-4bc7-8dbf-0deef7b79faa/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@text='CONTACTS']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='CONTACTS']","46e29132-a987-4bc7-8dbf-0deef7b79faa"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 10000 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8212/wd/hub/session/cfb4f004-8b76-4f77-b426-64b1dc951554/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='CONTACTS']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"cfb4f004-8b76-4f77-b426-64b1dc951554","value":{"ELEMENT":"5b37980b-1b8c-4e4d-96ca-2fa6da15caf8","element-6066-11e4-a52e-4f735466cecf":"5b37980b-1b8c-4e4d-96ca-2fa6da15caf8"}}
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5b37980b-1b8c-4e4d-96ca-2fa6da15caf8","ELEMENT":"5b37980b-1b8c-4e4d-96ca-2fa6da15caf8"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/46e29132-a987-4bc7-8dbf-0deef7b79faa/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3772 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/46e29132-a987-4bc7-8dbf-0deef7b79faa/element/5b37980b-1b8c-4e4d-96ca-2fa6da15caf8/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"5b37980b-1b8c-4e4d-96ca-2fa6da15caf8"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m Calling AppiumDriver.click() with args: ["5b37980b-1b8c-4e4d-96ca-2fa6da15caf8","46e29132-a987-4bc7-8dbf-0deef7b79faa"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/5b37980b-1b8c-4e4d-96ca-2fa6da15caf8/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/5b37980b-1b8c-4e4d-96ca-2fa6da15caf8/click] to [POST http://127.0.0.1:8212/wd/hub/session/cfb4f004-8b76-4f77-b426-64b1dc951554/element/5b37980b-1b8c-4e4d-96ca-2fa6da15caf8/click] with body: {"element":"5b37980b-1b8c-4e4d-96ca-2fa6da15caf8"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"cfb4f004-8b76-4f77-b426-64b1dc951554","value":null}
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/46e29132-a987-4bc7-8dbf-0deef7b79faa/element/5b37980b-1b8c-4e4d-96ca-2fa6da15caf8/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m48 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/46e29132-a987-4bc7-8dbf-0deef7b79faa/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"Payel-rel-bangalor\"))"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiScrollable(new UiSelector()).scrollIntoView(text(\"Payel-rel-bangalor\"))","46e29132-a987-4bc7-8dbf-0deef7b79faa"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 10000 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8212/wd/hub/session/cfb4f004-8b76-4f77-b426-64b1dc951554/element] with body: {"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector()).scrollIntoView(text(\"Payel-rel-bangalor\"))","context":"","multiple":false}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 404: {"sessionId":"cfb4f004-8b76-4f77-b426-64b1dc951554","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:78)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Matched W3C error code 'no such element' to NoSuchElementError
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[debug] &amp#27;[35m[W3C (46e29132)]&amp#27;[39m     at AndroidUiautomator2Driver.findElOrEls (C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/46e29132-a987-4bc7-8dbf-0deef7b79faa/element &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m64297 ms - 419&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Jun 30, 2020 8:38:13 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LaunchContact" classname="Application.Contact.LaunchContactTest" time="35.476">
+    <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-9VN76KV&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 5641ad29-5a6b-4410-b95c-7cdfc6ab03d1&#10;*** Element info: {Using=xpath, value=//android.widget.Button[@text=&apos;ALLOW&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9VN76KV', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5641ad29-5a6b-4410-b95c-7cdfc6ab03d1
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='ALLOW']}
+	at Application.Contact.LaunchContactTest.LaunchContact(LaunchContactTest.java:46)
+</failure>
+    <system-out><![CDATA[&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","platformName":"Android","deviceName":"Android Device"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.android.dialer.DialtactsActivity","appium:appPackage":"com.samsung.android.contacts","appium:automationName":"uiautomator2","appium:deviceName":"Android Device","platformName":"android"}]}}&amp#27;[39m
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","platformName":"Android","deviceName":"Android Device"},null,{"firstMatch":[{"appium:appActivity":"com.android.dialer.DialtactsActivity","appium:appPackage":"com.samsung.android.contacts","appium:automationName":"uiautomator2","appium:deviceName":"Android Device","platformName":"android"}]}]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1593529761640 (20:39:21 GMT+0530 (India Standard Time))
+&amp#27;[35m[Appium]&amp#27;[39m Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.android.dialer.DialtactsActivity",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.samsung.android.contacts",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "uiautomator2",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "Android Device"
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: 5641ad29-5a6b-4410-b95c-7cdfc6ab03d1
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.samsung.android.contacts' directly on the device
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"420010599737743f","state":"device"}]
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Using device: 420010599737743f
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to 420010599737743f
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell getprop ro.build.version.sdk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.sdk': 27
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 27
+&amp#27;[35m[AndroidDriver]&amp#27;[39m No app sent in, not parsing package/activity
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f wait-for-device'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell echo ping'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Pushing settings apk to device...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.settings
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.settings' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.1.0' >= '3.1.0')
+[debug] &amp#27;[35m[ADB]&amp#27;[39m There is no need to install/upgrade 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting IDs of all 'io.appium.settings' processes
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell 'pgrep --help; echo $?''
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pgrep -f io\\.appium\\.settings'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell appops set io.appium.settings android\:mock_location allow'
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Starting logcat capture
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Forwarding UiAutomator2 Server port 6790 to 8214
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Forwarding system: 8214 to device: 6790
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f forward tcp\:8214 tcp\:6790'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.5.5' >= '4.5.5')
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk
+&amp#27;[35m[ADB]&amp#27;[39m Using 'apksigner.jar' from 'C:\Users\rajat\AppData\Local\Android\Sdk\build-tools\30.0.0\lib\apksigner.jar'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.5.apk
+&amp#27;[35m[ADB]&amp#27;[39m Cannot use apksigner tool for signature verification. Original error: Command ''C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.5.apk' exited with code 1
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Defaulting to verify.jar
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' is signed with the default certificate
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server.test
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server.test' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+&amp#27;[35m[ADB]&amp#27;[39m Cannot use apksigner tool for signature verification. Original error: Command ''C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Defaulting to verify.jar
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Server packages are not going to be (re)installed
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for services to be available
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pm list instrumentation'
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No app capability. Assuming it is already on the device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for com.samsung.android.contacts
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package com.samsung.android.contacts'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'com.samsung.android.contacts' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am force-stop com.samsung.android.contacts'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pm clear com.samsung.android.contacts'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Performed fast reset on the installed 'com.samsung.android.contacts' application (stop and clear)
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Performing shallow cleanup of automation leftovers
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The following obsolete sessions are still running: ["cfb4f004-8b76-4f77-b426-64b1dc951554"]
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Cleaning up the obsolete sessions
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m .
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am force-stop io.appium.uiautomator2.server.test'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting UIAutomator2 server 4.5.5
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Using UIAutomator2 server from 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' and test from 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Creating ADB subprocess with args: ["-P",5037,"-s","420010599737743f","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m Time: 81.124
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m 
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m OK (1 test)
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m The process has exited with code 0
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8214/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8214/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8214/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8214/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8214/wd/hub/status] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The initialization of the instrumentation process took 5240ms
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /session] to [POST http://127.0.0.1:8214/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f"}],"alwaysMatch":{}}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f"}],"alwaysMatch":{}}}}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/appium/device/info] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"androidId":"8f53ae9a94067865","manufacturer":"samsung","model":"SM-G615FU","brand":"samsung","apiVersion":"27","platformVersion":"8.1.0","carrierName":"Vodafone IN","realDisplaySize":"1080x1920","displayDensity":420,"networks":[{"type":0,"typeName":"MOBILE","subtype":13,"subtypeName":"LTE","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"IMS","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"TRANSPORT_CELLULAR","networkCapabilities":"NET_CAPABILITY_IMS,NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING","linkUpstreamBandwidthKbps":51200,"linkDownBandwidthKbps":102400,"signalStrength":-2147483648,"networkSpecifier":"5","SSID":null}},{"type":13,"typeName":"WIFI_P2P","subtype":0,"subtypeName":"","isConnected":false,"detailedState":"DISCONNECTED","state":"DISCONNECTED","extraInfo":null,"isAvailable":true,"i...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys window'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Screen already unlocked, doing nothing
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.samsung.android.contacts/com.android.dialer.DialtactsActivity and waiting for 'com.samsung.android.contacts/com.android.dialer.DialtactsActivity'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am start -W -n com.samsung.android.contacts/com.android.dialer.DialtactsActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/appium/device/pixel_ratio] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":2.625}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/appium/device/system_bars] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"statusBar":63}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/window/current/size] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"height":1920,"width":1080}}
+&amp#27;[35m[Appium]&amp#27;[39m New AndroidUiautomator2Driver session created successfully, session 5641ad29-5a6b-4410-b95c-7cdfc6ab03d1 added to master session list
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1593529777749 (20:39:37 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Cached the protocol value 'W3C' for the new session 5641ad29-5a6b-4410-b95c-7cdfc6ab03d1
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f","deviceApiLevel":27,"platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"SM-G615FU","deviceManufacturer":"samsung","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1857}}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m16122 ms - 947&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@text='CONTACTS']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='CONTACTS']","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='CONTACTS']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"ELEMENT":"f876025d-860a-4105-a3b3-976a8ed9c8d4","element-6066-11e4-a52e-4f735466cecf":"f876025d-860a-4105-a3b3-976a8ed9c8d4"}}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"f876025d-860a-4105-a3b3-976a8ed9c8d4","ELEMENT":"f876025d-860a-4105-a3b3-976a8ed9c8d4"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3883 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/f876025d-860a-4105-a3b3-976a8ed9c8d4/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"f876025d-860a-4105-a3b3-976a8ed9c8d4"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.click() with args: ["f876025d-860a-4105-a3b3-976a8ed9c8d4","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/f876025d-860a-4105-a3b3-976a8ed9c8d4/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/f876025d-860a-4105-a3b3-976a8ed9c8d4/click] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element/f876025d-860a-4105-a3b3-976a8ed9c8d4/click] with body: {"element":"f876025d-860a-4105-a3b3-976a8ed9c8d4"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":null}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/f876025d-860a-4105-a3b3-976a8ed9c8d4/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m50 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"id","value":"com.samsung.android.contacts:id/create_contact_header"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["id","com.samsung.android.contacts:id/create_contact_header","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element] with body: {"strategy":"id","selector":"com.samsung.android.contacts:id/create_contact_header","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"ELEMENT":"3d6c5f18-e87e-46b8-b541-8b97fd6a4026","element-6066-11e4-a52e-4f735466cecf":"3d6c5f18-e87e-46b8-b541-8b97fd6a4026"}}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3d6c5f18-e87e-46b8-b541-8b97fd6a4026","ELEMENT":"3d6c5f18-e87e-46b8-b541-8b97fd6a4026"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m273 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/3d6c5f18-e87e-46b8-b541-8b97fd6a4026/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"3d6c5f18-e87e-46b8-b541-8b97fd6a4026"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.click() with args: ["3d6c5f18-e87e-46b8-b541-8b97fd6a4026","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/3d6c5f18-e87e-46b8-b541-8b97fd6a4026/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/3d6c5f18-e87e-46b8-b541-8b97fd6a4026/click] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element/3d6c5f18-e87e-46b8-b541-8b97fd6a4026/click] with body: {"element":"3d6c5f18-e87e-46b8-b541-8b97fd6a4026"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":null}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/3d6c5f18-e87e-46b8-b541-8b97fd6a4026/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m551 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.LinearLayout[@content-desc='Phone. Not selected']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.LinearLayout[@content-desc='Phone. Not selected']","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element] with body: {"strategy":"xpath","selector":"//android.widget.LinearLayout[@content-desc='Phone. Not selected']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"ELEMENT":"bf49a008-74fb-4d89-970c-cd5707b4d7db","element-6066-11e4-a52e-4f735466cecf":"bf49a008-74fb-4d89-970c-cd5707b4d7db"}}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"bf49a008-74fb-4d89-970c-cd5707b4d7db","ELEMENT":"bf49a008-74fb-4d89-970c-cd5707b4d7db"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m533 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/touch/perform&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"actions":[{"action":"tap","options":{"element":"bf49a008-74fb-4d89-970c-cd5707b4d7db"}}]}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"bf49a008-74fb-4d89-970c-cd5707b4d7db"}}],"5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+&amp#27;[35m[UiAutomator2]&amp#27;[39m calling get location: bf49a008-74fb-4d89-970c-cd5707b4d7db
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/bf49a008-74fb-4d89-970c-cd5707b4d7db/location' to command name 'getLocation'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /element/bf49a008-74fb-4d89-970c-cd5707b4d7db/location] to [GET http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element/bf49a008-74fb-4d89-970c-cd5707b4d7db/location] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"x":127,"y":513}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/bf49a008-74fb-4d89-970c-cd5707b4d7db/size' to command name 'getSize'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /element/bf49a008-74fb-4d89-970c-cd5707b4d7db/size] to [GET http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element/bf49a008-74fb-4d89-970c-cd5707b4d7db/size] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"width":825,"height":148}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/bf49a008-74fb-4d89-970c-cd5707b4d7db/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/bf49a008-74fb-4d89-970c-cd5707b4d7db/click] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element/bf49a008-74fb-4d89-970c-cd5707b4d7db/click] with body: {"element":"bf49a008-74fb-4d89-970c-cd5707b4d7db","x":539.5,"y":587}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":null}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.performTouch() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/touch/perform &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m798 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"id","value":"android:id/button2"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["id","android:id/button2","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element] with body: {"strategy":"id","selector":"android:id/button2","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"ELEMENT":"03b38212-92ec-4c3b-8c55-ae53454907dc","element-6066-11e4-a52e-4f735466cecf":"03b38212-92ec-4c3b-8c55-ae53454907dc"}}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"03b38212-92ec-4c3b-8c55-ae53454907dc","ELEMENT":"03b38212-92ec-4c3b-8c55-ae53454907dc"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m55 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/03b38212-92ec-4c3b-8c55-ae53454907dc/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"03b38212-92ec-4c3b-8c55-ae53454907dc"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.click() with args: ["03b38212-92ec-4c3b-8c55-ae53454907dc","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/03b38212-92ec-4c3b-8c55-ae53454907dc/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/03b38212-92ec-4c3b-8c55-ae53454907dc/click] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element/03b38212-92ec-4c3b-8c55-ae53454907dc/click] with body: {"element":"03b38212-92ec-4c3b-8c55-ae53454907dc"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":null}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/03b38212-92ec-4c3b-8c55-ae53454907dc/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m65 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/appium/device/hide_keyboard&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.hideKeyboard() with args: [null,null,null,null,"5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys input_method'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell input keyevent 111'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys input_method'
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.hideKeyboard() result: true
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/appium/device/hide_keyboard &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1790 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.EditText[@text='Name']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@text='Name']","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@text='Name']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"ELEMENT":"cba490d1-e2e6-4d0f-a751-acf271beda20","element-6066-11e4-a52e-4f735466cecf":"cba490d1-e2e6-4d0f-a751-acf271beda20"}}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"cba490d1-e2e6-4d0f-a751-acf271beda20","ELEMENT":"cba490d1-e2e6-4d0f-a751-acf271beda20"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m903 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/cba490d1-e2e6-4d0f-a751-acf271beda20/value&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"cba490d1-e2e6-4d0f-a751-acf271beda20","text":"test123","value":["t","e","s","t","1","2","3"]}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.setValue() with args: [["t","e","s","t","1","2","3"],"cba490d1-e2e6-4d0f-a751-acf271beda20","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/cba490d1-e2e6-4d0f-a751-acf271beda20/value' to command name 'setValue'
+[debug] &amp#27;[35m[Protocol Converter]&amp#27;[39m Added 'value' property ["t","e","s","t","1","2","3"] to 'setValue' request body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/cba490d1-e2e6-4d0f-a751-acf271beda20/value] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element/cba490d1-e2e6-4d0f-a751-acf271beda20/value] with body: {"elementId":"cba490d1-e2e6-4d0f-a751-acf271beda20","text":"test123","replace":false,"value":["t","e","s","t","1","2","3"]}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":null}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.setValue() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/cba490d1-e2e6-4d0f-a751-acf271beda20/value &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m148 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.EditText[@text='Phone']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@text='Phone']","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@text='Phone']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"ELEMENT":"4a1d3a91-d990-470f-8aeb-23f81a4eea3b","element-6066-11e4-a52e-4f735466cecf":"4a1d3a91-d990-470f-8aeb-23f81a4eea3b"}}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4a1d3a91-d990-470f-8aeb-23f81a4eea3b","ELEMENT":"4a1d3a91-d990-470f-8aeb-23f81a4eea3b"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1809 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/4a1d3a91-d990-470f-8aeb-23f81a4eea3b/value&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"4a1d3a91-d990-470f-8aeb-23f81a4eea3b","text":"1236777","value":["1","2","3","6","7","7","7"]}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.setValue() with args: [["1","2","3","6","7","7","7"],"4a1d3a91-d990-470f-8aeb-23f81a4eea3b","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/4a1d3a91-d990-470f-8aeb-23f81a4eea3b/value' to command name 'setValue'
+[debug] &amp#27;[35m[Protocol Converter]&amp#27;[39m Added 'value' property ["1","2","3","6","7","7","7"] to 'setValue' request body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/4a1d3a91-d990-470f-8aeb-23f81a4eea3b/value] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element/4a1d3a91-d990-470f-8aeb-23f81a4eea3b/value] with body: {"elementId":"4a1d3a91-d990-470f-8aeb-23f81a4eea3b","text":"1236777","replace":false,"value":["1","2","3","6","7","7","7"]}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":null}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.setValue() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/4a1d3a91-d990-470f-8aeb-23f81a4eea3b/value &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m572 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"id","value":"com.samsung.android.contacts:id/menu_done"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["id","com.samsung.android.contacts:id/menu_done","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element] with body: {"strategy":"id","selector":"com.samsung.android.contacts:id/menu_done","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"ELEMENT":"9110fa6a-5a38-446e-b5d2-a9d261a0e8b5","element-6066-11e4-a52e-4f735466cecf":"9110fa6a-5a38-446e-b5d2-a9d261a0e8b5"}}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"9110fa6a-5a38-446e-b5d2-a9d261a0e8b5","ELEMENT":"9110fa6a-5a38-446e-b5d2-a9d261a0e8b5"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m489 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/9110fa6a-5a38-446e-b5d2-a9d261a0e8b5/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"9110fa6a-5a38-446e-b5d2-a9d261a0e8b5"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.click() with args: ["9110fa6a-5a38-446e-b5d2-a9d261a0e8b5","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/9110fa6a-5a38-446e-b5d2-a9d261a0e8b5/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/9110fa6a-5a38-446e-b5d2-a9d261a0e8b5/click] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element/9110fa6a-5a38-446e-b5d2-a9d261a0e8b5/click] with body: {"element":"9110fa6a-5a38-446e-b5d2-a9d261a0e8b5"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":null}
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element/9110fa6a-5a38-446e-b5d2-a9d261a0e8b5/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m67 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.Button[@text='ALLOW']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.Button[@text='ALLOW']","5641ad29-5a6b-4410-b95c-7cdfc6ab03d1"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8214/wd/hub/session/db97a470-ac16-4517-831f-f8794d41e498/element] with body: {"strategy":"xpath","selector":"//android.widget.Button[@text='ALLOW']","context":"","multiple":false}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 404: {"sessionId":"db97a470-ac16-4517-831f-f8794d41e498","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:102)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:72)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCon...
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Matched W3C error code 'no such element' to NoSuchElementError
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[debug] &amp#27;[35m[W3C (5641ad29)]&amp#27;[39m     at AndroidUiautomator2Driver.findElOrEls (C:\Users\r]]></system-out>
+    <system-err><![CDATA[Jun 30, 2020 8:39:37 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LaunchContact" classname="Application.Contact.LaunchContactTest" time="36.131">
+    <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-9VN76KV&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: ac72a0e0-ac30-4804-a79e-4a323185e244&#10;*** Element info: {Using=xpath, value=//android.widget.Button[@text=&apos;ALLOW&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9VN76KV', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ac72a0e0-ac30-4804-a79e-4a323185e244
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='ALLOW']}
+	at Application.Contact.LaunchContactTest.LaunchContact(LaunchContactTest.java:46)
+</failure>
+    <system-out><![CDATA[ajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/5641ad29-5a6b-4410-b95c-7cdfc6ab03d1/element &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m162 ms - 419&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","platformName":"Android","deviceName":"Android Device"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.android.dialer.DialtactsActivity","appium:appPackage":"com.samsung.android.contacts","appium:automationName":"uiautomator2","appium:deviceName":"Android Device","platformName":"android"}]}}&amp#27;[39m
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","platformName":"Android","deviceName":"Android Device"},null,{"firstMatch":[{"appium:appActivity":"com.android.dialer.DialtactsActivity","appium:appPackage":"com.samsung.android.contacts","appium:automationName":"uiautomator2","appium:deviceName":"Android Device","platformName":"android"}]}]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1593529797106 (20:39:57 GMT+0530 (India Standard Time))
+&amp#27;[35m[Appium]&amp#27;[39m Appium v1.17.1 creating new AndroidUiautomator2Driver (v1.44.2) session
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.android.dialer.DialtactsActivity",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.samsung.android.contacts",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "uiautomator2",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:deviceName": "Android Device"
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: ac72a0e0-ac30-4804-a79e-4a323185e244
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.samsung.android.contacts' directly on the device
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"420010599737743f","state":"device"}]
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Using device: 420010599737743f
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb.exe' from 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to 420010599737743f
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell getprop ro.build.version.sdk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.sdk': 27
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 27
+&amp#27;[35m[AndroidDriver]&amp#27;[39m No app sent in, not parsing package/activity
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f wait-for-device'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell echo ping'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Pushing settings apk to device...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.settings
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.settings' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.1.0' >= '3.1.0')
+[debug] &amp#27;[35m[ADB]&amp#27;[39m There is no need to install/upgrade 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting IDs of all 'io.appium.settings' processes
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell 'pgrep --help; echo $?''
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pgrep -f io\\.appium\\.settings'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell appops set io.appium.settings android\:mock_location allow'
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Starting logcat capture
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Forwarding UiAutomator2 Server port 6790 to 8215
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Forwarding system: 8215 to device: 6790
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f forward tcp\:8215 tcp\:6790'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.5.5' >= '4.5.5')
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk
+&amp#27;[35m[ADB]&amp#27;[39m Using 'apksigner.jar' from 'C:\Users\rajat\AppData\Local\Android\Sdk\build-tools\30.0.0\lib\apksigner.jar'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.5.apk
+&amp#27;[35m[ADB]&amp#27;[39m Cannot use apksigner tool for signature verification. Original error: Command ''C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.5.apk' exited with code 1
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Defaulting to verify.jar
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' is signed with the default certificate
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server.test
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server.test' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+&amp#27;[35m[ADB]&amp#27;[39m Cannot use apksigner tool for signature verification. Original error: Command ''C:\\Program Files\\Java\\jdk1.8.0_251\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\rajat\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\rajat\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk' exited with code 1
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Defaulting to verify.jar
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Server packages are not going to be (re)installed
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for services to be available
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pm list instrumentation'
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No app capability. Assuming it is already on the device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for com.samsung.android.contacts
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys package com.samsung.android.contacts'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'com.samsung.android.contacts' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am force-stop com.samsung.android.contacts'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell pm clear com.samsung.android.contacts'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Performed fast reset on the installed 'com.samsung.android.contacts' application (stop and clear)
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Performing shallow cleanup of automation leftovers
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The following obsolete sessions are still running: ["db97a470-ac16-4517-831f-f8794d41e498"]
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Cleaning up the obsolete sessions
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m .
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m Time: 33.092
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m 
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m OK (1 test)
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am force-stop io.appium.uiautomator2.server.test'
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m The process has exited with code 0
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting UIAutomator2 server 4.5.5
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Using UIAutomator2 server from 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.5.apk' and test from 'C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Creating ADB subprocess with args: ["-P",5037,"-s","420010599737743f","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8215/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8215/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8215/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8215/wd/hub/status] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with unknown status: {"code":"ECONNRESET"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8215/wd/hub/status] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The initialization of the instrumentation process took 5272ms
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /session] to [POST http://127.0.0.1:8215/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f"}],"alwaysMatch":{}}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f"}],"alwaysMatch":{}}}}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/appium/device/info] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"androidId":"8f53ae9a94067865","manufacturer":"samsung","model":"SM-G615FU","brand":"samsung","apiVersion":"27","platformVersion":"8.1.0","carrierName":"Vodafone IN","realDisplaySize":"1080x1920","displayDensity":420,"networks":[{"type":0,"typeName":"MOBILE","subtype":13,"subtypeName":"LTE","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"IMS","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"TRANSPORT_CELLULAR","networkCapabilities":"NET_CAPABILITY_IMS,NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING","linkUpstreamBandwidthKbps":51200,"linkDownBandwidthKbps":102400,"signalStrength":-2147483648,"networkSpecifier":"5","SSID":null}},{"type":13,"typeName":"WIFI_P2P","subtype":0,"subtypeName":"","isConnected":false,"detailedState":"DISCONNECTED","state":"DISCONNECTED","extraInfo":null,"isAvailable":true,"i...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys window'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Screen already unlocked, doing nothing
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.samsung.android.contacts/com.android.dialer.DialtactsActivity and waiting for 'com.samsung.android.contacts/com.android.dialer.DialtactsActivity'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell am start -W -n com.samsung.android.contacts/com.android.dialer.DialtactsActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/appium/device/pixel_ratio] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":2.625}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/appium/device/system_bars] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"statusBar":63}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/window/current/size] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"height":1920,"width":1080}}
+&amp#27;[35m[Appium]&amp#27;[39m New AndroidUiautomator2Driver session created successfully, session ac72a0e0-ac30-4804-a79e-4a323185e244 added to master session list
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1593529814466 (20:40:14 GMT+0530 (India Standard Time))
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Cached the protocol value 'W3C' for the new session ac72a0e0-ac30-4804-a79e-4a323185e244
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"Android Device"},"platformName":"android","appActivity":"com.android.dialer.DialtactsActivity","appPackage":"com.samsung.android.contacts","automationName":"uiautomator2","deviceName":"420010599737743f","deviceUDID":"420010599737743f","deviceApiLevel":27,"platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"SM-G615FU","deviceManufacturer":"samsung","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1857}}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m17365 ms - 947&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.TextView[@text='CONTACTS']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='CONTACTS']","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element] with body: {"strategy":"xpath","selector":"//android.widget.TextView[@text='CONTACTS']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"ELEMENT":"12850cd8-919f-4d11-950e-3015fd0364c4","element-6066-11e4-a52e-4f735466cecf":"12850cd8-919f-4d11-950e-3015fd0364c4"}}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"12850cd8-919f-4d11-950e-3015fd0364c4","ELEMENT":"12850cd8-919f-4d11-950e-3015fd0364c4"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m3854 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/12850cd8-919f-4d11-950e-3015fd0364c4/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"12850cd8-919f-4d11-950e-3015fd0364c4"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.click() with args: ["12850cd8-919f-4d11-950e-3015fd0364c4","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/12850cd8-919f-4d11-950e-3015fd0364c4/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/12850cd8-919f-4d11-950e-3015fd0364c4/click] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element/12850cd8-919f-4d11-950e-3015fd0364c4/click] with body: {"element":"12850cd8-919f-4d11-950e-3015fd0364c4"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":null}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/12850cd8-919f-4d11-950e-3015fd0364c4/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m65 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"id","value":"com.samsung.android.contacts:id/create_contact_header"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["id","com.samsung.android.contacts:id/create_contact_header","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element] with body: {"strategy":"id","selector":"com.samsung.android.contacts:id/create_contact_header","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"ELEMENT":"230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8","element-6066-11e4-a52e-4f735466cecf":"230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8"}}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8","ELEMENT":"230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m208 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.click() with args: ["230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8/click] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element/230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8/click] with body: {"element":"230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":null}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/230ce7fd-521e-4aa1-9b5f-5ec5cd8a40c8/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m585 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.LinearLayout[@content-desc='Phone. Not selected']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.LinearLayout[@content-desc='Phone. Not selected']","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element] with body: {"strategy":"xpath","selector":"//android.widget.LinearLayout[@content-desc='Phone. Not selected']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"ELEMENT":"4339e60e-e274-4a19-8f24-338f2be499f1","element-6066-11e4-a52e-4f735466cecf":"4339e60e-e274-4a19-8f24-338f2be499f1"}}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4339e60e-e274-4a19-8f24-338f2be499f1","ELEMENT":"4339e60e-e274-4a19-8f24-338f2be499f1"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m298 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/touch/perform&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"actions":[{"action":"tap","options":{"element":"4339e60e-e274-4a19-8f24-338f2be499f1"}}]}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"4339e60e-e274-4a19-8f24-338f2be499f1"}}],"ac72a0e0-ac30-4804-a79e-4a323185e244"]
+&amp#27;[35m[UiAutomator2]&amp#27;[39m calling get location: 4339e60e-e274-4a19-8f24-338f2be499f1
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/4339e60e-e274-4a19-8f24-338f2be499f1/location' to command name 'getLocation'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /element/4339e60e-e274-4a19-8f24-338f2be499f1/location] to [GET http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element/4339e60e-e274-4a19-8f24-338f2be499f1/location] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"x":127,"y":513}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/4339e60e-e274-4a19-8f24-338f2be499f1/size' to command name 'getSize'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /element/4339e60e-e274-4a19-8f24-338f2be499f1/size] to [GET http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element/4339e60e-e274-4a19-8f24-338f2be499f1/size] with body: {}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"width":825,"height":148}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/4339e60e-e274-4a19-8f24-338f2be499f1/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/4339e60e-e274-4a19-8f24-338f2be499f1/click] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element/4339e60e-e274-4a19-8f24-338f2be499f1/click] with body: {"element":"4339e60e-e274-4a19-8f24-338f2be499f1","x":539.5,"y":587}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":null}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.performTouch() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/touch/perform &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m916 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"id","value":"android:id/button2"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["id","android:id/button2","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element] with body: {"strategy":"id","selector":"android:id/button2","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"ELEMENT":"23e141c2-a515-479a-b698-eb5887878505","element-6066-11e4-a52e-4f735466cecf":"23e141c2-a515-479a-b698-eb5887878505"}}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"23e141c2-a515-479a-b698-eb5887878505","ELEMENT":"23e141c2-a515-479a-b698-eb5887878505"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m62 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/23e141c2-a515-479a-b698-eb5887878505/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"23e141c2-a515-479a-b698-eb5887878505"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.click() with args: ["23e141c2-a515-479a-b698-eb5887878505","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/23e141c2-a515-479a-b698-eb5887878505/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/23e141c2-a515-479a-b698-eb5887878505/click] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element/23e141c2-a515-479a-b698-eb5887878505/click] with body: {"element":"23e141c2-a515-479a-b698-eb5887878505"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":null}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/23e141c2-a515-479a-b698-eb5887878505/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m47 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/appium/device/hide_keyboard&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.hideKeyboard() with args: [null,null,null,null,"ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys input_method'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell input keyevent 111'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running 'C:\Users\rajat\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 420010599737743f shell dumpsys input_method'
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.hideKeyboard() result: true
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/appium/device/hide_keyboard &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1609 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.EditText[@text='Name']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@text='Name']","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@text='Name']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"ELEMENT":"768d82e9-5bcf-4bbf-add7-bbcbbdd0c650","element-6066-11e4-a52e-4f735466cecf":"768d82e9-5bcf-4bbf-add7-bbcbbdd0c650"}}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"768d82e9-5bcf-4bbf-add7-bbcbbdd0c650","ELEMENT":"768d82e9-5bcf-4bbf-add7-bbcbbdd0c650"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m820 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/768d82e9-5bcf-4bbf-add7-bbcbbdd0c650/value&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"768d82e9-5bcf-4bbf-add7-bbcbbdd0c650","text":"test1234","value":["t","e","s","t","1","2","3","4"]}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.setValue() with args: [["t","e","s","t","1","2","3","4"],"768d82e9-5bcf-4bbf-add7-bbcbbdd0c650","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/768d82e9-5bcf-4bbf-add7-bbcbbdd0c650/value' to command name 'setValue'
+[debug] &amp#27;[35m[Protocol Converter]&amp#27;[39m Added 'value' property ["t","e","s","t","1","2","3","4"] to 'setValue' request body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/768d82e9-5bcf-4bbf-add7-bbcbbdd0c650/value] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element/768d82e9-5bcf-4bbf-add7-bbcbbdd0c650/value] with body: {"elementId":"768d82e9-5bcf-4bbf-add7-bbcbbdd0c650","text":"test1234","replace":false,"value":["t","e","s","t","1","2","3","4"]}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":null}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.setValue() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/768d82e9-5bcf-4bbf-add7-bbcbbdd0c650/value &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m622 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.EditText[@text='Phone']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.EditText[@text='Phone']","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element] with body: {"strategy":"xpath","selector":"//android.widget.EditText[@text='Phone']","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"ELEMENT":"b7f0e858-4028-4778-a910-c33668f96ba1","element-6066-11e4-a52e-4f735466cecf":"b7f0e858-4028-4778-a910-c33668f96ba1"}}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"b7f0e858-4028-4778-a910-c33668f96ba1","ELEMENT":"b7f0e858-4028-4778-a910-c33668f96ba1"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1600 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/b7f0e858-4028-4778-a910-c33668f96ba1/value&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"b7f0e858-4028-4778-a910-c33668f96ba1","text":"12368777","value":["1","2","3","6","8","7","7","7"]}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.setValue() with args: [["1","2","3","6","8","7","7","7"],"b7f0e858-4028-4778-a910-c33668f96ba1","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/b7f0e858-4028-4778-a910-c33668f96ba1/value' to command name 'setValue'
+[debug] &amp#27;[35m[Protocol Converter]&amp#27;[39m Added 'value' property ["1","2","3","6","8","7","7","7"] to 'setValue' request body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/b7f0e858-4028-4778-a910-c33668f96ba1/value] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element/b7f0e858-4028-4778-a910-c33668f96ba1/value] with body: {"elementId":"b7f0e858-4028-4778-a910-c33668f96ba1","text":"12368777","replace":false,"value":["1","2","3","6","8","7","7","7"]}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":null}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.setValue() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/b7f0e858-4028-4778-a910-c33668f96ba1/value &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m87 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"id","value":"com.samsung.android.contacts:id/menu_done"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["id","com.samsung.android.contacts:id/menu_done","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element] with body: {"strategy":"id","selector":"com.samsung.android.contacts:id/menu_done","context":"","multiple":false}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"ELEMENT":"ba31d568-abf5-4366-ad77-194dc088fb18","element-6066-11e4-a52e-4f735466cecf":"ba31d568-abf5-4366-ad77-194dc088fb18"}}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"ba31d568-abf5-4366-ad77-194dc088fb18","ELEMENT":"ba31d568-abf5-4366-ad77-194dc088fb18"}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m538 ms - 137&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/ba31d568-abf5-4366-ad77-194dc088fb18/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"ba31d568-abf5-4366-ad77-194dc088fb18"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.click() with args: ["ba31d568-abf5-4366-ad77-194dc088fb18","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element/ba31d568-abf5-4366-ad77-194dc088fb18/click' to command name 'click'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element/ba31d568-abf5-4366-ad77-194dc088fb18/click] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element/ba31d568-abf5-4366-ad77-194dc088fb18/click] with body: {"element":"ba31d568-abf5-4366-ad77-194dc088fb18"}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":null}
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Responding to client with driver.click() result: null
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element/ba31d568-abf5-4366-ad77-194dc088fb18/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m75 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//android.widget.Button[@text='ALLOW']"}&amp#27;[39m
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.Button[@text='ALLOW']","ac72a0e0-ac30-4804-a79e-4a323185e244"]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Waiting up to 0 ms for condition
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/element' to command name 'findElement'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /element] to [POST http://127.0.0.1:8215/wd/hub/session/7f8b931b-50a8-418d-9338-52e55c9397e3/element] with body: {"strategy":"xpath","selector":"//android.widget.Button[@text='ALLOW']","context":"","multiple":false}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 404: {"sessionId":"7f8b931b-50a8-418d-9338-52e55c9397e3","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:102)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:72)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCon...
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Matched W3C error code 'no such element' to NoSuchElementError
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[debug] &amp#27;[35m[W3C (ac72a0e0)]&amp#27;[39m     at AndroidUiautomator2Driver.findElOrEls (C:\Users\rajat\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/ac72a0e0-ac30-4804-a79e-4a323185e244/element &amp#27;[39m&amp#27;[33m404&amp#27;[39m &amp#27;[90m167 ms - 419&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[Jun 30, 2020 8:40:14 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="shouldAnswerWithTrue on shouldAnswerWithTrue(Application.Contact.AppTest)" classname="Application.Contact.AppTest" time="0.003"/>
+</testsuite>

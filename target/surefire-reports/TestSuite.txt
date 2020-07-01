@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 308.304 s <<< FAILURE! - in TestSuite
+ContactSearch(Application.Contact.ContactSearchTest)  Time elapsed: 61.447 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9VN76KV', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: de5ffec5-d48d-469e-b7c5-b18a1d2b6037
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text("Payel Jio"))}
+	at Application.Contact.ContactSearchTest.ContactSearch(ContactSearchTest.java:38)
+
+DeleteContact(Application.Contact.DeleteContactTest)  Time elapsed: 82.607 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9VN76KV', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 46e29132-a987-4bc7-8dbf-0deef7b79faa
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text("Payel-rel-bangalor"))}
+	at Application.Contact.DeleteContactTest.DeleteContact(DeleteContactTest.java:38)
+
+LaunchContact(Application.Contact.LaunchContactTest)  Time elapsed: 35.476 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9VN76KV', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5641ad29-5a6b-4410-b95c-7cdfc6ab03d1
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='ALLOW']}
+	at Application.Contact.LaunchContactTest.LaunchContact(LaunchContactTest.java:46)
+
+LaunchContact(Application.Contact.LaunchContactTest)  Time elapsed: 36.131 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9VN76KV', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.android.dialer.Dialtact..., appPackage: com.samsung.android.contacts, automationName: uiautomator2, deviceName: Android Device, platformName: android}, deviceApiLevel: 27, deviceManufacturer: samsung, deviceModel: SM-G615FU, deviceName: 420010599737743f, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: 420010599737743f, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1857, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ac72a0e0-ac30-4804-a79e-4a323185e244
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='ALLOW']}
+	at Application.Contact.LaunchContactTest.LaunchContact(LaunchContactTest.java:46)
+

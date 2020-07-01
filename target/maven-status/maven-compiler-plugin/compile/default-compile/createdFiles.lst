@@ -1,0 +1,5 @@
+Application\Contact\App.class
+Application\Contact\baseContact.class
+Application\Contact\TestData.class
+resources\Listeners.class
+resources\ExtentReporterNG.class
